@@ -31,7 +31,7 @@ To create a tool that feels like writing in a journal, but with the intelligence
 - **Frontend:** Expo (React Native)
 - **Backend:** Supabase (auth, storage, sync)
 - **Local Storage:** SQLite via Expo for offline journal entries
-- **AI/LLM:** Claude/OpenAI API (for online), lightweight local models for tagging (TBD)
+- **AI/LLM:** Exploring local AI models from Hugging Face for the Alpha Version.
 - **Memory:** Embedding-based vector search (TBD solution)
 - **Payments:** Stripe (for future mentor feature)
 
