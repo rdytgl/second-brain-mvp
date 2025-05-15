@@ -1,0 +1,62 @@
+# Documentation Log – May 14, 2025
+
+**Project Name:** *Second Brain AI* (temporary name)  
+**Stage:** Week 0 – Concept Refinement, Stack Exploration, and Documentation
+
+---
+
+## Tasks Completed
+- Revisited and updated Concept Outline to reflect latest direction (tiles, emotional memory, offline-first).
+- Finalized revised README.md for GitHub, reflecting new roadmap and clarified goals.
+- Identified key technical learning tracks:
+  - CS50x for foundational CS
+  - Python/ML for local model use
+  - Alpha MVP build within 8 weeks
+- Clarified MVP Alpha features and long-term premium roadmap.
+- Explored potential for lightweight, local models (via Hugging Face, etc.) to power free-tier AI.
+- Decided to explore **SQLite (offline journaling)** and **Supabase (cloud sync)**.
+- Discussed real-time vs. batch processing for AI input handling.
+- Started building out documentation strategy, including versioning, concept logs, and feature evolution tracking.
+
+---
+
+## User Feedback / Design Inputs
+- Identified early users: university students and early professionals overwhelmed by Obsidian/Notion.
+- Emphasis on:
+  - Offline journaling
+  - Emotional awareness
+  - Low-effort organization (“magically sorted”)
+  - Memory and follow-ups (e.g., “you mentioned X two weeks ago…”)
+- Suggested premium feature: coaching or assistant-style reflections + planning.
+
+---
+
+## Decisions Made
+- **Alpha MVP**: Free-form journal input processed into categorized “tiles” (e.g., tasks, emotions, ideas).
+- **AI Strategy**: Use real-time API calls when online, batch-tagging when offline.
+- **Stack Direction**:
+  - Frontend: Expo + React Native
+  - Backend: Supabase
+  - Local storage: SQLite
+  - AI: Mix of hosted (OpenAI, Claude) and local (smaller LLMs) models
+- **Project Scope**:
+  - Focus on solo journaling app first
+  - Enterprise/collaborative variant as long-term parallel concept
+- Added memory/embedding roadmap as part of AI learning track
+
+---
+
+## Next Questions / Pending
+- What local model should we test for tag generation + categorization?
+- What embedding approach is simplest for journaling memory without fine-tuning?
+- What’s the tradeoff of using OpenAI Assistants API vs. building our own memory system?
+- What’s the cleanest offline → cloud sync pattern using Supabase and SQLite?
+- Define the first tile types for MVP (e.g., task, emotion, project, goal)
+
+---
+
+## Reflections
+- Realized analysis paralysis came from overplanning and perfectionism — now working with clearer, iterative goals.
+- Committed to “building through learning” and using Week 0 to explore, not rush.
+- Reframed the project as not just a second brain — but a **reflective emotional support tool**.
+- Documenting early will help track growth and build transparency for future open-source goals.
