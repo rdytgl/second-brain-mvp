@@ -113,27 +113,55 @@
 
 ---
 
+## 7. NotebookLM (by Google)
+**Type:** AI-powered notebook + research assistant  
+**Target Users:** Writers, researchers, students
+
+### Pros
+- Allows uploading of source materials (PDFs, docs)
+- AI assistant can answer questions only within your notebook content
+- Supports follow-up questions and continuity
+- Great for summarizing long docs and notes
+- Clear focus on being *source-grounded*
+
+### Cons
+- Not open-source
+- Limited customization of interface or AI behavior
+- Heavily tied to Google ecosystem
+- Not designed for emotional reflection or long-term memory simulation
+- Lacks deep tagging or second-brain-style data modeling
+
+---
+
 ## Comparison Table
 
-| Tool        | Open Source | Emotion-Aware | Visual Builder | AI Integration | Good for MVP? |
-|-------------|-------------|----------------|----------------|----------------|----------------|
-| Langflow    | Yes         | No             | Yes            | Strong         | Medium         |
-| Mem         | No          | Partial        | No             | Strong         | Medium         |
-| Tana        | No (Beta)   | No             | No             | Native         | Medium         |
-| Obsidian    | Yes         | No (via plugins) | No           | Plugin-based   | High           |
-| Notion AI   | No          | No             | No             | Built-in       | Low/Medium     |
-| Logseq/etc. | Yes         | No             | No             | DIY            | High (if extended) |
+| Tool         | Open Source | Emotion-Aware | Visual Builder | AI Integration | Good for MVP? |
+|--------------|-------------|----------------|----------------|----------------|----------------|
+| Langflow     | Yes         | No             | Yes            | Strong         | Medium         |
+| Mem          | No          | Partial        | No             | Strong         | Medium         |
+| Tana         | No (Beta)   | No             | No             | Native         | Medium         |
+| Obsidian     | Yes         | No (via plugins) | No           | Plugin-based   | High           |
+| Notion AI    | No          | No             | No             | Built-in       | Low/Medium     |
+| Logseq/etc.  | Yes         | No             | No             | DIY            | High           |
+| NotebookLM   | No          | No             | No             | Context-based  | Medium         |
+
+---
+
+## Key Takeaways with NotebookLM in Mind As Largest (Potential) Competitor
+
+- **NotebookLM** highlights the value of *source-aware AI*, but:
+  - It doesn’t emphasize *personal growth, reflection, or memory*.
+  - Your product can fill a unique niche by combining:
+    - Context retention (like NotebookLM)
+    - Emotional awareness (missing from all competitors)
+    - Local-first or minimal-impact AI model design
 
 ---
 
 ## Notes for Differentiation
 
-- Your project could stand out by:
+- The project could stand out by:
   - Focusing on **emotionally nuanced summaries and memory loops**.
   - Providing **choice-based interactions** (advice vs. reflection vs. acknowledgment).
   - Building with **lightweight models** for accessibility and sustainability.
   - Offering an **Obsidian-like structure** but with **more guided AI memory + mood support**.
-
----
-
-Let me know when you're ready to explore feature trees or write up the “Why this product exists” manifesto!
