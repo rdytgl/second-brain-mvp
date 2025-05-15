@@ -151,7 +151,7 @@
 
 - **NotebookLM** highlights the value of *source-aware AI*, but:
   - It doesn’t emphasize *personal growth, reflection, or memory*.
-  - Your product can fill a unique niche by combining:
+  - The product can fill a unique niche by combining:
     - Context retention (like NotebookLM)
     - Emotional awareness (missing from all competitors)
     - Local-first or minimal-impact AI model design
